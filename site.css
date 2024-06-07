@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.container-cinza {
+    background-color: #dcdcdc;
+    width: 42%;
+    height: 645px;
+    text-align: center;
+    justify-content: center;
+}
+
+.logo-main {
+    width: 350px;
+    height: 250px;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+#label-Main,
+#password,
+#nickname {
+    background-color: #b7b7b7;
+    color: #515151;
+    width: 400px;
+    height: 40px;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+#label-Main ::placeholder,
+#password ::placeholder,
+#nickname ::placeholder{
+    color: #515151;
+    margin-left: 50px;
+}
+
+#label-nick {
+    font-size: 20px;
+    color: #850522;
+}
+
+#Login {
+    width: 450px;
+    height: 70px;
+    background-color: #850522;
+    color: #dcdcdc;
+    font-size: 50px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#error-message {
+    color: #850522;
+    margin-top: -115px;
+    font-size: 20px;
+    display: none;
+}
+
+
+
+.back {
+    margin-left: 560px;
+    margin-top: -750px;
+    width: 805px;
+    height: 750px;
+    background: url('back_dos_games.png') 0px 50px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#sobre {
+    font-size: 45px;
+    color: #dcdcdc;
+    padding-left: 130px;
+    margin-top: -170px;
+}
+
+#desc {
+    width: 490px;
+    font-size: 22px;
+    color: #dcdcdc;
+    margin-left: -230px;
+    padding-top: 140px;
+}
+
+#behance, #twitter {
+    margin-top: 630px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+a {
+    color: #b8a11e
+}

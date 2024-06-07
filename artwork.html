@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storm</title>
+    <link rel="icon" href="logo_inver.png">
+    <link rel="stylesheet" href="artwork.css">
+</head>
+<body>
+    
+    <div class="hotbar">
+        <img src="19145210539_LE_auto_x2-ai-brush-removebg-ftyskowl.png" id="logo">
+        <div class="icon">
+            <i class="fa-sharp fa-solid fa-bars fa-2xl"></i>
+            
+            <ul>
+                <li class="dropdown-menu">
+                    <a id="nickname-display"></a>
+                    <a class='change'><strong>Change Theme</strong></a>
+                    <a href="site.html"><strong>Log Out</strong></a>
+                </li>    
+            </ul>
+        </div>
+    </div>
+
+    <div class="imagensTop">
+        <div class="carousel">
+            <div class="container" id="container1">
+                <img src="img1.png" class="img" id="brightness1">
+            </div>
+            <div class="container" id="container2">
+                <img src="img2.png" class="img" id="brightness2">
+            </div>
+            <div class="container" id="container3">
+                <img src="img3.png" class="img" id="brightness3">
+            </div>
+            <div class="container" id="container4">
+                <img src="img4.png" class="img" id="brightness4">
+            </div>
+        </div>    
+        <button class="nextButton"> <p> > </p> </button>
+        <button class="previousButton"> <p> < </p> </button>
+    </div>
+
+    <div class="imagensBot">
+        <div class="container" id="container5">
+            <img src="img5.png" class="img" id="brightness5">
+        </div>
+        <div class="container" id="container6">
+            <img src="img6.png" class="img" id="brightness6">
+        </div>
+    </div>
+    
+    <dialog class="popup1">
+        <img src="img1.png">
+        <button class="like"><i class="fa-solid fa-heart"></i></button>
+    </dialog>
+    <dialog class="popup2">
+        <img src="img2.png">
+        <button class="like"><i class="fa-solid fa-heart"></i></button>
+    </dialog>
+    <dialog class="popup3">
+        <img src="img3.png">
+        <button class="like"><i class="fa-solid fa-heart"></i></button>
+    </dialog>
+    <dialog class="popup4">
+        <img src="img4.png" id='dialog-img4'>
+        <button class="like"><i class="fa-solid fa-heart"></i></button>
+    </dialog>
+    <dialog class="popup5">
+        <img src="img5.png" id='dialog-img5'>
+        <button class="like"><i class="fa-solid fa-heart"></i></button>
+    </dialog>
+    <dialog class="popup6">
+        <img src="img6.png" id='dialog-img6'>
+        <button class="like"><i class="fa-solid fa-heart"></i></button>
+    </dialog>
+        
+
+
+    <script src='carousel.js'></script>
+    <script src="popup.js"></script>
+    <script src='theme.js'></script>
+</body>
+</html>
